@@ -1,0 +1,39 @@
+
+@media (min-width: 280px) {
+    :root {
+        --modalWidth:100%;
+        --heightWidth:70%;
+        --width: 48%;
+        --userWidth:100%;
+       --containerWidth:90%;
+       --bigImageWidth:100%;
+       --imageCarouselWidth:100%;
+       --imageCarouselHeight:auto;
+       --shadow:-2px 1px 15px -5px #000000;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    :root {
+        --imageCarouselWidth:800px;
+        --imageCarouselHeight:600px;
+        --userWidth:46%;
+        --modalWidth:80%;
+        --width:100%;
+        --containerWidth:90%;
+        --bigImageWidth:80%;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    :root {
+        --imageCarouselWidth:1000px;
+        --imageCarouselHeight:750px;
+        --modalWidth:70%;
+        --heightWidth:90%;
+        --containerWidth:80%;
+        --userWidth:46%;
+        --width: 31%;
+        --bigImageWidth:60%;
+    }
+  }
